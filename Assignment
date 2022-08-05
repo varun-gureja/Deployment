@@ -1,0 +1,3 @@
+Suppose you have deployed your application using a deployment controller. Assume the initial number of replicas is one. Write the steps needed to update a container's image using deployment, making sure that there is zero downtime
+Image can be scaled up directly from one to 2 or more..using below command:
+kubectl scale rc kubia2 --replica=2
